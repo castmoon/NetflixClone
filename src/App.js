@@ -5,7 +5,7 @@ import "./App.css"
 import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
 
-export default () => {
+function App() {
 
   const [movieList, setMovieList] = useState([]);
   const [featureData, setFeatureData] = useState(null);
@@ -65,3 +65,5 @@ export default () => {
     </div>
   );
 }
+
+export default App;
